@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Will You Be My Valentine?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Great+Vibes&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- Floating Hearts Background -->
+  <div id="hearts-container"></div>
+
+  <div id="app">
+    <!-- Question Section -->
+    <div id="question-container" class="container">
+      <h1 class="title">Will you be my Valentine?</h1>
+      <div class="buttons">
+        <button id="yes-btn" class="btn yes-btn">Yes</button>
+        <button id="no-btn" class="btn no-btn">No</button>
+      </div>
+    </div>
+
+    <!-- Success Section (Hidden initially) -->
+    <div id="success-container" class="container hidden">
+      <h1 class="success-message">I LOVE YOU MY VALENTINE MIRJANA</h1>
+      <div class="heart-animation">❤️</div>
+    </div>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
